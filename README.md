@@ -1,6 +1,6 @@
 #VR Magic Kingdom Wait Times
 
-[Demo](http://maryknize.com/magickingdom/);
+[Demo](http://maryknize.com/magickingdom/)
 
 Ride wait times at the Magic Kingdom superimposed in virtual reality on a park map. Column heights correspond to wait times.
 
