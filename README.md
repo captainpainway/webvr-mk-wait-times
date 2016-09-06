@@ -12,6 +12,8 @@ Color map:
 
 Hover the cursor over a column for the ride's name and current wait time.
 
+Use the WASD keys to move around the map. (There is no way to move around the map yet on mobile.)
+
 Updates automatically every five minutes.
 
 ##Technologies used:
