@@ -1,0 +1,614 @@
+[
+  {
+    "id": "5490",
+    "name": "Stitch's Great Escape!",
+    "waitTime": 10,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "136550",
+    "name": "Monsters, Inc. Laugh Floor",
+    "waitTime": 10,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T10:00:00-04:00",
+      "closingTime": "2016-09-05T22:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "2219610",
+    "name": "Walt Disney World Railroad - Frontierland",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T20:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16124144",
+    "name": "Walt Disney's Enchanted Tiki Room",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T21:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16414579",
+    "name": "Sorcerers of the Magic Kingdom",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T21:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16491297",
+    "name": "The Barnstormer",
+    "waitTime": 10,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16491299",
+    "name": "Walt Disney World Railroad - Fantasyland",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T20:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16512939",
+    "name": "Casey Jr. Splash 'N' Soak Station",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16767209",
+    "name": "Cinderella Castle",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16767263",
+    "name": "Under the Sea - Journey of The Little Mermaid",
+    "waitTime": 20,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16767276",
+    "name": "Enchanted Tales with Belle",
+    "waitTime": 30,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T22:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "16767284",
+    "name": "Seven Dwarfs Mine Train ",
+    "waitTime": 0,
+    "active": false,
+    "status": "Down",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "17272158",
+    "name": "A Pirate's Adventure - Treasures of the Seven Seas",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T22:30:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "17511485",
+    "name": "Allergy-Friendly Experience Courtesy of Mylan – Mickey's Not-So-Scary Halloween Party",
+    "waitTime": 0,
+    "active": false,
+    "status": "Closed",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T23:59:59-04:00",
+      "type": "Closed"
+    }
+  },
+  {
+    "id": "17511582",
+    "name": "Treat Locations for Mickey's Not-So-Scary Halloween Party",
+    "waitTime": 0,
+    "active": false,
+    "status": "Closed",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T00:00:00-04:00",
+      "type": "Closed"
+    }
+  },
+  {
+    "id": "17823158",
+    "name": "Pirate and Princess Adventures at Walt Disney World",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T23:59:59-04:00",
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "18466383",
+    "name": "Princesses at Walt Disney World",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T23:59:59-04:00",
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010107",
+    "name": "Astro Orbiter",
+    "waitTime": 20,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010110",
+    "name": "Big Thunder Mountain Railroad",
+    "waitTime": 0,
+    "active": false,
+    "status": "Closed",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T23:59:00-04:00",
+      "special": [],
+      "type": "Closed"
+    }
+  },
+  {
+    "id": "80010114",
+    "name": "Buzz Lightyear's Space Ranger Spin",
+    "waitTime": 40,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010117",
+    "name": "Prince Charming Regal Carrousel",
+    "waitTime": 0,
+    "active": false,
+    "status": "Down",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010129",
+    "name": "Dumbo the Flying Elephant",
+    "waitTime": 20,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010135",
+    "name": "Frontierland Shootin' Arcade",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010149",
+    "name": "\"it's a small world\"",
+    "waitTime": 0,
+    "active": false,
+    "status": "Closed",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T23:59:00-04:00",
+      "special": [],
+      "type": "Closed"
+    }
+  },
+  {
+    "id": "80010153",
+    "name": "Jungle Cruise",
+    "waitTime": 40,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010160",
+    "name": "Liberty Square Riverboat",
+    "waitTime": 0,
+    "active": false,
+    "status": "Down",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T10:00:00-04:00",
+      "closingTime": "2016-09-05T20:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010162",
+    "name": "Mad Tea Party",
+    "waitTime": 10,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010165",
+    "name": "Main Street Vehicles",
+    "waitTime": 0,
+    "active": false,
+    "status": "Closed",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T10:15:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010170",
+    "name": "Mickey's PhilharMagic",
+    "waitTime": 5,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010176",
+    "name": "Peter Pan's Flight",
+    "waitTime": 55,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010177",
+    "name": "Pirates of the Caribbean",
+    "waitTime": 20,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010190",
+    "name": "Space Mountain",
+    "waitTime": 45,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010192",
+    "name": "Splash Mountain",
+    "waitTime": 20,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010196",
+    "name": "Swiss Family Treehouse",
+    "waitTime": 0,
+    "active": false,
+    "status": "Closed",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T00:00:00-04:00",
+      "closingTime": "2016-09-05T23:59:00-04:00",
+      "special": [],
+      "type": "Closed"
+    }
+  },
+  {
+    "id": "80010208",
+    "name": "Haunted Mansion",
+    "waitTime": 30,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010210",
+    "name": "The Magic Carpets of Aladdin",
+    "waitTime": 15,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010213",
+    "name": "The Many Adventures of Winnie the Pooh",
+    "waitTime": 0,
+    "active": false,
+    "status": "Down",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010220",
+    "name": "Tom Sawyer Island",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T11:00:00-04:00",
+      "closingTime": "2016-09-05T18:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010222",
+    "name": "Tomorrowland Speedway",
+    "waitTime": 20,
+    "active": true,
+    "status": "Operating",
+    "fastPass": true,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010224",
+    "name": "Tomorrowland Transit Authority PeopleMover",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010230",
+    "name": "Walt Disney World Railroad - Main Street, U.S.A",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T20:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80010232",
+    "name": "Walt Disney's Carousel of Progress",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T23:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80069748",
+    "name": "Country Bear Jamboree",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T11:00:00-04:00",
+      "closingTime": "2016-09-05T21:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  },
+  {
+    "id": "80069754",
+    "name": "The Hall of Presidents",
+    "waitTime": 0,
+    "active": true,
+    "status": "Operating",
+    "fastPass": false,
+    "schedule": {
+      "openingTime": "2016-09-05T09:00:00-04:00",
+      "closingTime": "2016-09-05T21:00:00-04:00",
+      "special": [],
+      "type": "Operating"
+    }
+  }
+]

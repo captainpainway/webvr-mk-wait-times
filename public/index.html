@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>VR Magic Kingdom Wait Times</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="./javascripts/bundle.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <img id="MK" src="WDW_Magic_Kingdom.jpg">
+            <img id="stitchsgreatescape" src="./images/stitch.png">
+            <img id="monstersinclaughfloor" src="./images/monstersinc.png">
+            <img id="waltdisneyworldrailroadfrontierland" src="./images/wdwrrfrontierland.png">
+            <img id="waltdisneysenchantedtikiroom" src="./images/tikiroom.png">
+            <img id="thebarnstormer" src="./images/barnstormer.png">
+            <img id="waltdisneyworldrailroadfantasyland" src="./images/wdwrrfantasyland.png">
+            <img id="caseyjrsplashnsoakstation" src="./images/splash.png">
+            <img id="undertheseajourneyofthelittlemermaid" src="./images/littlemermaid.png">
+            <img id="enchantedtaleswithbelle" src="./images/enchantedtales.png">
+            <img id="sevendwarfsminetrain" src="./images/sevendwarfs.png">
+            <img id="princessesatwaltdisneyworld" src="./images/princesses.png">
+            <img id="astroorbiter" src="./images/astroorbiter.png">
+            <img id="bigthundermountainrailroad" src="./images/bigthundermountain.png">
+            <img id="buzzlightyearsspacerangerspin" src="./images/buzz.png">
+            <img id="princecharmingregalcarrousel" src="./images/carrousel.png">
+            <img id="dumbotheflyingelephant" src="./images/dumbo.png">
+            <img id="itsasmallworld" src="./images/smallworld.png">
+            <img id="junglecruise" src="./images/junglecruise.png">
+            <img id="libertysquareriverboat" src="./images/riverboat.png">
+            <img id="madteaparty" src="./images/teaparty.png">
+            <img id="mickeysphilharmagic" src="./images/philharmagic.png">
+            <img id="peterpansflight" src="./images/peterpan.png">
+            <img id="piratesofthecaribbean" src="./images/pirates.png">
+            <img id="spacemountain" src="./images/spacemountain.png">
+            <img id="splashmountain" src="./images/splashmountain.png">
+            <img id="swissfamilytreehouse" src="./images/treehouse.png">
+            <img id="hauntedmansion" src="./images/hauntedmansion.png">
+            <img id="themagiccarpetsofaladdin" src="./images/aladdin.png">
+            <img id="themanyadventuresofwinniethepooh" src="./images/pooh.png">
+            <img id="tomsawyerisland" src="./images/tomsawyer.png">
+            <img id="tomorrowlandspeedway" src="./images/speedway.png">
+            <img id="tomorrowlandtransitauthoritypeoplemover" src="./images/peoplemover.png">
+            <img id="waltdisneyworldrailroadmainstreetusa" src="./images/wdwrrmainstreet.png">
+            <img id="waltdisneyscarouselofprogress" src="./images/carouselofprogress.png">
+            <img id="countrybearjamboree" src="./images/countrybear.png">
+            <img id="thehallofpresidents" src="./images/hallofpresidents.png">
+            <img id="time0" src="./images/waittimes/0minutes.png">
+            <img id="time5" src="./images/waittimes/5minutes.png">
+            <img id="time10" src="./images/waittimes/10minutes.png">
+            <img id="time15" src="./images/waittimes/15minutes.png">
+            <img id="time20" src="./images/waittimes/20minutes.png">
+            <img id="time25" src="./images/waittimes/25minutes.png">
+            <img id="time30" src="./images/waittimes/30minutes.png">
+            <img id="time35" src="./images/waittimes/35minutes.png">
+            <img id="time40" src="./images/waittimes/40minutes.png">
+            <img id="time45" src="./images/waittimes/45minutes.png">
+            <img id="time50" src="./images/waittimes/50minutes.png">
+            <img id="time55" src="./images/waittimes/55minutes.png">
+            <img id="time60" src="./images/waittimes/60minutes.png">
+            <img id="time65" src="./images/waittimes/65minutes.png">
+            <img id="time70" src="./images/waittimes/70minutes.png">
+            <img id="time75" src="./images/waittimes/75minutes.png">
+            <img id="time80" src="./images/waittimes/80minutes.png">
+            <img id="time85" src="./images/waittimes/85minutes.png">
+            <img id="time90" src="./images/waittimes/90minutes.png">
+            <img id="time95" src="./images/waittimes/95minutes.png">
+            <img id="time100" src="./images/waittimes/100minutes.png">
+            <img id="time110" src="./images/waittimes/110minutes.png">
+            <img id="time120" src="./images/waittimes/120minutes.png">
+        </a-assets>
+      <!-- Stitch's Great Escape -->
+      <a-cylinder class="clickable" id="5490" position="24 0 2.5" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Monsters Inc Laugh Floor -->
+      <a-cylinder class="clickable" id="136550" position="21.5 0 5.7" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- WDW Railroad: Frontierland -->
+      <a-cylinder class="clickable" id="2219610" position="-54.5 0 -15.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Tiki Room -->
+      <a-cylinder class="clickable" id="16124144" position="-36 0 10.3" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- The Barnstormer -->
+      <a-cylinder class="clickable" id="16491297" position="41.6 0 -32.8" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- WDW Railroad: Fantasyland -->
+      <a-cylinder class="clickable" id="16491299" position="41.7 0 -36.6" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Casey Jr Spash Station -->
+      <a-cylinder class="clickable" id="16512939" position="37.6 0 -34.8" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Journey of the Little Mermaid -->
+      <a-cylinder class="clickable" id="16767263" position="19.8 0 -37.8" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Enchanted Tales With Belle -->
+      <a-cylinder class="clickable" id="16767276" position="2.6 0 -36.6" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Seven Dwarfs Mine Train -->
+      <a-cylinder class="clickable" id="16767284" position="18.8 0 -28" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Princess Fairytale Hall -->
+      <a-cylinder class="clickable" id="18466383" position="5.3 0 -20.2" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Astro Orbiter -->
+      <a-cylinder class="clickable" id="80010107" position="32 0 4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Big Thunder Mountain Railroad -->
+      <a-cylinder class="clickable" id="80010110" position="-49.3 0 -19.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Buzz Lightyear -->
+      <a-cylinder class="clickable" id="80010114" position="27.8 0 9.2" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Prince Charming Regal Carrousel -->
+      <a-cylinder class="clickable" id="80010117" position="0.7 0 -20.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Dumbo the Flying Elephant -->
+      <a-cylinder class="clickable" id="80010129" position="33.4 0 -28.3" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- it's a small world -->
+      <a-cylinder class="clickable" id="80010149" position="-12.4 0 -29" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Jungle Cruise -->
+      <a-cylinder class="clickable" id="80010153" position="-31.7 0 14.2" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Liberty Square Riverboat -->
+      <a-cylinder class="clickable" id="80010160" position="-22.8 0 -13.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Mad Tea Party -->
+      <a-cylinder class="clickable" id="80010162" position="21.3 0 -20.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Mickey's Philharmagic -->
+      <a-cylinder class="clickable" id="80010170" position="-2.9 0 -19.8" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Peter Pan's Flight -->
+      <a-cylinder class="clickable" id="80010176" position="-9.7 0 -24.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Pirates of the Caribbean -->
+      <a-cylinder class="clickable" id="80010177" position="-43 0 12" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Space Mountain -->
+      <a-cylinder class="clickable" id="80010190" position="47 0 -0.2" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Splash Mountain -->
+      <a-cylinder class="clickable" id="80010192" position="-57.2 0 -11" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Swiss Family Treehouse -->
+      <a-cylinder class="clickable" id="80010196" position="-23.4 0 6.1" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Haunted Mansion -->
+      <a-cylinder class="clickable" id="80010208" position="-24.1 0 -22.6" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- The Magic Carpets of Aladdin -->
+      <a-cylinder class="clickable" id="80010210" position="-32.3 0 8" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Winnie the Pooh -->
+      <a-cylinder class="clickable" id="80010213" position="13.5 0 -22.2" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Tom Sawyer Island -->
+      <a-cylinder class="clickable" id="80010220" position="-44.7 0 -11.6" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Tomorrowland Speedway -->
+      <a-cylinder class="clickable" id="80010222" position="28.7 0 -10" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- TTA Peoplemover -->
+      <a-cylinder class="clickable" id="80010224" position="32.6 0 7.7" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- WDW Railroad: Main Street -->
+      <a-cylinder class="clickable" id="80010230" position="0.7 0 39.9" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Carousel of Progress -->
+      <a-cylinder class="clickable" id="80010232" position="33.8 0 12.5" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- Country Bear Jamboree -->
+      <a-cylinder class="clickable" id="80069748" position="-36.1 0 0.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+      <!-- The Hall of Presidents -->
+      <a-cylinder class="clickable" id="80069754" position="-15.5 0 -11.4" radius="1" height="5" color="#FFC65D" opacity="0.75" ></a-cylinder>
+
+      <a-plane position="63 0 3" rotation="-90 0 0" width="256" height="117" material="shader: flat; src: #MK"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+      <a-entity position="0 30 0">
+      <!-- <a-entity position="0 30 50"> -->
+          <a-entity camera rotation="-30 0 0" look-controls wasd-controls="acceleration: 200">
+
+              <a-entity raycaster="objects: .clickable"
+                cursor="fuse: true; fuseTimeout: 1000"
+                position="0 0 -10"
+                geometry="primitive: sphere; radius: 0.13"
+                material="color: #333; shader: flat">
+                <a-animation begin="click" attribute="material.color" from="#66ddff" to="#333" dur="1000"></a-animation>
+                <a-animation begin="fusing" attribute="material.color" from="#333" to="#66ddff" dur="1000"></a-animation>
+              </a-entity>
+
+              <a-image id="attraction" src="" position="0 0.15 -3" width="2.5" height="1.2" visible="false"></a-image>
+              <a-image id="waittime" src="" position="0 0.15 -2.8" width="2.5" height="1.2" visible="false"></a-image>
+
+          </a-entity>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
